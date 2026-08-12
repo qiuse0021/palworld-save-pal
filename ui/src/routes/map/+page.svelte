@@ -145,6 +145,20 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{m.map_meta_title()}</title>
+	<meta data-localized-seo name="description" content={m.map_meta_description()} />
+	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
+	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/map" />
+	<meta data-localized-seo property="og:title" content={m.map_meta_title()} />
+	<meta data-localized-seo property="og:description" content={m.map_meta_description()} />
+	<meta data-localized-seo property="og:type" content="website" />
+	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/map" />
+	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
+	<meta data-localized-seo name="twitter:title" content={m.map_meta_title()} />
+	<meta data-localized-seo name="twitter:description" content={m.map_meta_description()} />
+</svelte:head>
+
 <div class="relative h-full overflow-hidden">
 	{#if panelOpen}
 		<aside

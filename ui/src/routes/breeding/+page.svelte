@@ -416,6 +416,20 @@
 	);
 </script>
 
+<svelte:head>
+	<title>{m.breeding_meta_title()}</title>
+	<meta data-localized-seo name="description" content={m.breeding_meta_description()} />
+	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
+	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/breeding" />
+	<meta data-localized-seo property="og:title" content={m.breeding_meta_title()} />
+	<meta data-localized-seo property="og:description" content={m.breeding_meta_description()} />
+	<meta data-localized-seo property="og:type" content="website" />
+	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/breeding" />
+	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
+	<meta data-localized-seo name="twitter:title" content={m.breeding_meta_title()} />
+	<meta data-localized-seo name="twitter:description" content={m.breeding_meta_description()} />
+</svelte:head>
+
 <div
 	class="animate-fade-in space-y-5 p-5 {chainViewMode === 'graph'
 		? 'flex h-full min-h-0 max-w-full flex-col'

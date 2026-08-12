@@ -104,7 +104,17 @@
 </script>
 
 <svelte:head>
-	<title>{m.docs_wiki()} | Palworld Save Pal</title>
+	<title>{m.wiki_meta_title()}</title>
+	<meta data-localized-seo name="description" content={m.wiki_meta_description()} />
+	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
+	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/wiki" />
+	<meta data-localized-seo property="og:title" content={m.wiki_meta_title()} />
+	<meta data-localized-seo property="og:description" content={m.wiki_meta_description()} />
+	<meta data-localized-seo property="og:type" content="website" />
+	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/wiki" />
+	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
+	<meta data-localized-seo name="twitter:title" content={m.wiki_meta_title()} />
+	<meta data-localized-seo name="twitter:description" content={m.wiki_meta_description()} />
 </svelte:head>
 
 <div>

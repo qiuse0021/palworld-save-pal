@@ -3,7 +3,7 @@ import { UpdateAvailableModal } from '$components/modals';
 import * as m from '$i18n/messages';
 import { getLocale, setLocale } from '$i18n/runtime';
 import { getAppState, getModalState, getToastState } from '$states';
-import { bumpLocaleVersion } from '$states/localeState.svelte';
+import { bumpLocaleVersion, syncDocumentLocale } from '$states/localeState.svelte';
 import { MessageType } from '$types';
 import { isUpdateAvailableOnGitHub } from '$utils/appVersion';
 import type { WSMessageHandler } from '../types';
@@ -63,6 +63,7 @@ export const settingsHandler: WSMessageHandler = {
 		const previous = getLocale();
 		appState.settings = data;
 		setLocale(appState.settings.language);
+		syncDocumentLocale(appState.settings.language);
 		if (appState.settings.language !== previous) bumpLocaleVersion();
 	}
 };
