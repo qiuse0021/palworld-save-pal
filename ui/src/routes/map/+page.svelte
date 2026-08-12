@@ -1,16 +1,11 @@
 <script lang="ts">
 	import { getAppState } from '$states';
 	import { goto } from '$app/navigation';
-	import {
-		worldToPixel,
-		mapOf,
-		DEFAULT_MAP_AREA,
-		type MapArea
-	} from '$components/map/utils';
+	import { worldToPixel, mapOf, DEFAULT_MAP_AREA, type MapArea } from '$components/map/utils';
 	import { pixelToLngLat } from '$components/map/mercator';
 	import { isWatchtower } from '$components/map/fastTravel';
 	import { mapImg, relicTypeIcon } from '$components/map/styles';
-	import { Loading, SectionHeader } from '$components/ui';
+	import { SectionHeader } from '$components/ui';
 	import { mapObjects, fastTravelPoints, relics, relicData, bosses } from '$lib/data';
 	import { assetLoader } from '$utils';
 	import { persistedState } from 'svelte-persisted-state';
@@ -23,6 +18,8 @@
 	import { Eye, EyeOff } from '@lucide/svelte';
 	import * as m from '$i18n/messages';
 	import { p } from '$lib/utils/commonTranslations';
+	import { LocalizedSeo } from '$lib/components/seo';
+	import { onMount } from 'svelte';
 
 	type PublicMapOptions = {
 		area: MapArea;
@@ -70,12 +67,14 @@
 
 	let map: maplibregl.Map | undefined = $state(undefined);
 
-	const mapLoader = import('$components/map/Map.svelte');
 	let MapComponent = $state<typeof import('$components/map/Map.svelte').default | undefined>(
 		undefined
 	);
 
-	mapLoader.then((mod) => (MapComponent = mod.default));
+	onMount(async () => {
+		const mod = await import('$components/map/Map.svelte');
+		MapComponent = mod.default;
+	});
 
 	$effect(() => {
 		if (appState.saveFile) goto('/worldmap');
@@ -145,19 +144,7 @@
 	}
 </script>
 
-<svelte:head>
-	<title>{m.map_meta_title()}</title>
-	<meta data-localized-seo name="description" content={m.map_meta_description()} />
-	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
-	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/map" />
-	<meta data-localized-seo property="og:title" content={m.map_meta_title()} />
-	<meta data-localized-seo property="og:description" content={m.map_meta_description()} />
-	<meta data-localized-seo property="og:type" content="website" />
-	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/map" />
-	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
-	<meta data-localized-seo name="twitter:title" content={m.map_meta_title()} />
-	<meta data-localized-seo name="twitter:description" content={m.map_meta_description()} />
-</svelte:head>
+<LocalizedSeo pathname="/map" title={m.map_meta_title()} description={m.map_meta_description()} />
 
 <div class="relative h-full overflow-hidden">
 	{#if panelOpen}
@@ -216,9 +203,7 @@
 						<span class="text-surface-500 text-xs">{relicCount}</span>
 					</button>
 					<button
-						class="flex items-center space-x-2 {(options.showDungeons ?? true)
-							? ''
-							: 'opacity-25'}"
+						class="flex items-center space-x-2 {(options.showDungeons ?? true) ? '' : 'opacity-25'}"
 						onclick={() => (options.showDungeons = !(options.showDungeons ?? true))}
 					>
 						<img src={mapImg.dungeon} alt={m.dungeons()} class="mr-2 h-6 w-6" />
@@ -336,7 +321,10 @@
 						(options.structureRenderMode ?? 'detailed') === 'detailed' ? 'flat' : 'detailed')}
 			/>
 		{:else}
-			<Loading label={m.initializing_entity({ entity: m.map() })} />
+			<section class="mx-auto flex min-h-full max-w-4xl flex-col justify-center gap-4 px-6 py-16">
+				<h1 class="text-3xl font-bold">{m.map()}</h1>
+				<p class="text-surface-300 text-lg">{m.map_meta_description()}</p>
+			</section>
 		{/if}
 	</div>
 </div>

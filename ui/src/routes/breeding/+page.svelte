@@ -50,6 +50,7 @@
 		PlayerSummaryT
 	} from '$lib/breeding/types';
 	import type { Pal, PlayerSummary } from '$types';
+	import { LocalizedSeo } from '$lib/components/seo';
 
 	const appState = getAppState();
 
@@ -416,19 +417,11 @@
 	);
 </script>
 
-<svelte:head>
-	<title>{m.breeding_meta_title()}</title>
-	<meta data-localized-seo name="description" content={m.breeding_meta_description()} />
-	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
-	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/breeding" />
-	<meta data-localized-seo property="og:title" content={m.breeding_meta_title()} />
-	<meta data-localized-seo property="og:description" content={m.breeding_meta_description()} />
-	<meta data-localized-seo property="og:type" content="website" />
-	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/breeding" />
-	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
-	<meta data-localized-seo name="twitter:title" content={m.breeding_meta_title()} />
-	<meta data-localized-seo name="twitter:description" content={m.breeding_meta_description()} />
-</svelte:head>
+<LocalizedSeo
+	pathname="/breeding"
+	title={m.breeding_meta_title()}
+	description={m.breeding_meta_description()}
+/>
 
 <div
 	class="animate-fade-in space-y-5 p-5 {chainViewMode === 'graph'
@@ -451,7 +444,9 @@
 		{#each tabs as tab (tab.id)}
 			{@const TabIcon = tab.icon}
 			<button
-				class="rounded-sm flex items-center gap-1.5 px-3.5 py-2 text-sm font-medium transition-all {tabPill(mode === tab.id)}"
+				class="flex items-center gap-1.5 rounded-sm px-3.5 py-2 text-sm font-medium transition-all {tabPill(
+					mode === tab.id
+				)}"
 				onclick={() => switchMode(tab.id)}
 			>
 				<TabIcon size={15} />
@@ -459,19 +454,23 @@
 			</button>
 		{/each}
 		<div
-			class="rounded-sm bg-surface-950/50 border-surface-700/40 ml-auto flex gap-1 border p-0.5"
+			class="bg-surface-950/50 border-surface-700/40 ml-auto flex gap-1 rounded-sm border p-0.5"
 			role="group"
 			aria-label="View mode"
 		>
 			<button
-				class="rounded-sm flex items-center gap-1 px-2.5 py-1 text-xs font-medium transition-all {tabPill(chainViewMode === 'list')}"
+				class="flex items-center gap-1 rounded-sm px-2.5 py-1 text-xs font-medium transition-all {tabPill(
+					chainViewMode === 'list'
+				)}"
 				onclick={() => (chainViewMode = 'list')}
 			>
 				<List size={12} />
 				{m.breeding_view_list()}
 			</button>
 			<button
-				class="rounded-sm flex items-center gap-1 px-2.5 py-1 text-xs font-medium transition-all {tabPill(chainViewMode === 'graph')}"
+				class="flex items-center gap-1 rounded-sm px-2.5 py-1 text-xs font-medium transition-all {tabPill(
+					chainViewMode === 'graph'
+				)}"
 				onclick={() => (chainViewMode = 'graph')}
 			>
 				<GitMerge size={12} />
@@ -549,7 +548,7 @@
 				</div>
 
 				{#if error}<div
-						class="rounded-md bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 border px-3 py-2 text-xs"
+						class="bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs"
 					>
 						<AlertTriangle size={13} class="shrink-0" /><span>{error}</span>
 					</div>{/if}
@@ -617,14 +616,14 @@
 		{:else if mode === 'direct' && chainViewMode === 'graph'}
 			{#if error && !directTrees.length}
 				<div
-					class="rounded-md bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 border px-3 py-2 text-xs"
+					class="bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs"
 				>
 					<AlertTriangle size={13} class="shrink-0" /><span>{error}</span>
 				</div>
 			{/if}
 			<div class="flex min-h-0 flex-1 gap-4">
 				<div
-					class="rounded-md border-surface-700/30 bg-surface-950/20 min-h-0 min-w-0 flex-1 overflow-hidden border"
+					class="border-surface-700/30 bg-surface-950/20 min-h-0 min-w-0 flex-1 overflow-hidden rounded-md border"
 				>
 					{#if directTrees.length}
 						<GraphView
@@ -648,7 +647,7 @@
 				</div>
 				<div class="w-64 shrink-0">
 					<div
-						class="rounded-md border-surface-700/20 bg-surface-900/90 h-full overflow-hidden border shadow-xl backdrop-blur-sm"
+						class="border-surface-700/20 bg-surface-900/90 h-full overflow-hidden rounded-md border shadow-xl backdrop-blur-sm"
 					>
 						<BreedingSidePanel
 							mode="direct"
@@ -763,7 +762,7 @@
 									<div class="mt-2 flex flex-wrap gap-1.5">
 										{#each selectedPool as member (member.tribe)}
 											<div
-												class="rounded-sm bg-surface-950/50 border-surface-700/30 flex items-center gap-1 border px-1.5 py-0.5"
+												class="bg-surface-950/50 border-surface-700/30 flex items-center gap-1 rounded-sm border px-1.5 py-0.5"
 											>
 												<button
 													class="flex items-center gap-1 text-xs"
@@ -831,7 +830,7 @@
 					</div>
 
 					{#if error}<div
-							class="rounded-md bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 border px-3 py-2 text-xs"
+							class="bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs"
 						>
 							<AlertTriangle size={13} class="shrink-0" /><span>{error}</span>
 						</div>{/if}
@@ -873,7 +872,7 @@
 				</div>
 			{:else}
 				{#if error}<div
-						class="rounded-md bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 border px-3 py-2 text-xs"
+						class="bg-error-500/10 border-error-500/30 text-error-300 flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs"
 					>
 						<AlertTriangle size={13} class="shrink-0" /><span>{error}</span>
 					</div>{/if}
@@ -885,7 +884,7 @@
 
 				<div class="flex min-h-0 flex-1 gap-4">
 					<div
-						class="rounded-md border-surface-700/30 bg-surface-950/20 min-h-0 min-w-0 flex-1 overflow-hidden border"
+						class="border-surface-700/30 bg-surface-950/20 min-h-0 min-w-0 flex-1 overflow-hidden rounded-md border"
 					>
 						<GraphView
 							trees={chainTrees}
@@ -905,7 +904,7 @@
 					</div>
 					<div class="{sidePanelCollapsed ? 'w-10' : 'w-80'} shrink-0 transition-all duration-200">
 						<div
-							class="rounded-md border-surface-700/20 bg-surface-900/90 h-full overflow-hidden border shadow-xl backdrop-blur-sm"
+							class="border-surface-700/20 bg-surface-900/90 h-full overflow-hidden rounded-md border shadow-xl backdrop-blur-sm"
 						>
 							<BreedingSidePanel
 								mode={mode === 'save' ? 'save' : 'selection'}

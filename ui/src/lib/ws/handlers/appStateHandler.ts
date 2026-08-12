@@ -1,10 +1,11 @@
 import { goto } from '$app/navigation';
 import { UpdateAvailableModal } from '$components/modals';
 import * as m from '$i18n/messages';
-import { getLocale, setLocale } from '$i18n/runtime';
+import { deLocalizeHref, getLocale, setLocale } from '$i18n/runtime';
+import { isLocalizedPublicRoute } from '$lib/i18n/routingConfig.js';
 import { getAppState, getModalState, getToastState } from '$states';
 import { bumpLocaleVersion, syncDocumentLocale } from '$states/localeState.svelte';
-import { MessageType } from '$types';
+import { MessageType, type SupportedLanguage } from '$types';
 import { isUpdateAvailableOnGitHub } from '$utils/appVersion';
 import type { WSMessageHandler } from '../types';
 
@@ -62,6 +63,20 @@ export const settingsHandler: WSMessageHandler = {
 		const appState = getAppState();
 		const previous = getLocale();
 		appState.settings = data;
+
+		// Public pages take their locale from the URL. A persisted editor setting
+		// must never turn the English canonical URL into a different language.
+		if (
+			typeof window !== 'undefined' &&
+			isLocalizedPublicRoute(deLocalizeHref(window.location.pathname))
+		) {
+			const urlLocale = getLocale() as SupportedLanguage;
+			appState.settings.language = urlLocale;
+			syncDocumentLocale(urlLocale);
+			if (urlLocale !== previous) bumpLocaleVersion();
+			return;
+		}
+
 		setLocale(appState.settings.language);
 		syncDocumentLocale(appState.settings.language);
 		if (appState.settings.language !== previous) bumpLocaleVersion();

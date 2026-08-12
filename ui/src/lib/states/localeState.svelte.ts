@@ -1,19 +1,12 @@
 import { getLocale, setLocale } from '$i18n/runtime';
-import { send } from '$lib/utils/websocketUtils';
+import { htmlLanguageTags } from '$lib/i18n/routingConfig.js';
 import { switchLocale } from '$lib/utils/localeSwitch';
-import { MessageType } from '$types';
+import { send } from '$lib/utils/websocketUtils';
 import type { SupportedLanguage } from '$types';
+import { MessageType } from '$types';
 import { getAppState } from './appState.svelte';
 
 let version = $state(0);
-
-const htmlLanguageTags: Partial<Record<SupportedLanguage, string>> = {
-	'es-mx': 'es-MX',
-	'id-id': 'id-ID',
-	'pt-br': 'pt-BR',
-	'zh-hans': 'zh-Hans',
-	'zh-hant': 'zh-Hant'
-};
 
 // Paraglide message accessors read module-scoped state, so a locale change does
 // not re-render on its own. The layout keys on this counter to force it.
@@ -34,20 +27,22 @@ export function bumpLocaleVersion(): void {
 
 export function syncDocumentLocale(code: SupportedLanguage): void {
 	if (typeof document !== 'undefined') {
-		document.documentElement.lang = htmlLanguageTags[code] ?? code;
+		document.documentElement.lang = htmlLanguageTags[code];
 	}
 }
 
-export function applyLocale(code: SupportedLanguage): boolean {
+export function persistLocalePreference(code: SupportedLanguage): void {
 	const appState = getAppState();
+	appState.settings.language = code;
+	send(MessageType.UPDATE_SETTINGS, { ...appState.settings });
+}
+
+export function applyLocale(code: SupportedLanguage): boolean {
 	const changed = switchLocale(code, {
 		getLocale: () => getLocale(),
 		setLocale: (next, opts) => setLocale(next as SupportedLanguage, opts),
 		bump: bumpLocaleVersion,
-		persist: (next) => {
-			appState.settings.language = next as SupportedLanguage;
-			send(MessageType.UPDATE_SETTINGS, { ...appState.settings });
-		}
+		persist: (next) => persistLocalePreference(next as SupportedLanguage)
 	});
 	if (changed) syncDocumentLocale(code);
 	return changed;

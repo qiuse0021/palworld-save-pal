@@ -28,16 +28,29 @@
 	import FlaskConical from '@lucide/svelte/icons/flask-conical';
 	import Flame from '@lucide/svelte/icons/flame';
 	import Hammer from '@lucide/svelte/icons/hammer';
+	import { LocalizedSeo } from '$lib/components/seo';
 
 	let query = $state('');
 
 	const categoryMeta: Record<WikiCategory, { icon: typeof Egg; description: string }> = {
-		pals: { icon: Egg, description: 'Stats, elements, skills, and work suitabilities for all Pals.' },
-		items: { icon: Package, description: 'All items including weapons, armor, consumables, and materials.' },
+		pals: {
+			icon: Egg,
+			description: 'Stats, elements, skills, and work suitabilities for all Pals.'
+		},
+		items: {
+			icon: Package,
+			description: 'All items including weapons, armor, consumables, and materials.'
+		},
 		buildings: { icon: Building, description: 'Building recipes, materials, and stats.' },
-		'active-skills': { icon: Swords, description: 'Combat skills with element types, power, and cooldowns.' },
+		'active-skills': {
+			icon: Swords,
+			description: 'Combat skills with element types, power, and cooldowns.'
+		},
 		'passive-skills': { icon: Shield, description: 'Passive abilities and their stat effects.' },
-		technologies: { icon: FlaskConical, description: 'Technology tree, unlock requirements, and costs.' },
+		technologies: {
+			icon: FlaskConical,
+			description: 'Technology tree, unlock requirements, and costs.'
+		},
 		elements: { icon: Flame, description: 'Element types and their properties.' },
 		'work-suitability': { icon: Hammer, description: 'Work types and which Pals excel at each.' }
 	};
@@ -79,11 +92,13 @@
 				key,
 				name: element.localized_name || key
 			})),
-			'work-suitability': Object.entries(workSuitabilityData.workSuitability).map(([key, suit]) => ({
-				category: 'work-suitability',
-				key,
-				name: suit.localized_name || key
-			}))
+			'work-suitability': Object.entries(workSuitabilityData.workSuitability).map(
+				([key, suit]) => ({
+					category: 'work-suitability',
+					key,
+					name: suit.localized_name || key
+				})
+			)
 		};
 		return map;
 	});
@@ -103,19 +118,11 @@
 	});
 </script>
 
-<svelte:head>
-	<title>{m.wiki_meta_title()}</title>
-	<meta data-localized-seo name="description" content={m.wiki_meta_description()} />
-	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
-	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/wiki" />
-	<meta data-localized-seo property="og:title" content={m.wiki_meta_title()} />
-	<meta data-localized-seo property="og:description" content={m.wiki_meta_description()} />
-	<meta data-localized-seo property="og:type" content="website" />
-	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/wiki" />
-	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
-	<meta data-localized-seo name="twitter:title" content={m.wiki_meta_title()} />
-	<meta data-localized-seo name="twitter:description" content={m.wiki_meta_description()} />
-</svelte:head>
+<LocalizedSeo
+	pathname="/wiki"
+	title={m.wiki_meta_title()}
+	description={m.wiki_meta_description()}
+/>
 
 <div>
 	<h1 class="mb-2 text-2xl font-bold">{m.docs_wiki()}</h1>

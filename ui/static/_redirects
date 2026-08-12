@@ -1,0 +1,4 @@
+/zh-hans /zh 301
+/zh-hans/* /zh/:splat 301
+/zh-cn /zh 301
+/zh-cn/* /zh/:splat 301

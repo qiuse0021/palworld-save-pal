@@ -1,22 +1,1410 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://palworldsaveeditor.org/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/de</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es-mx</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/fr</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/id-id</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/it</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ko</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pl</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pt-br</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ru</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/th</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/tr</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/vi</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh-hant</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/" />
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://palworldsaveeditor.org/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/de/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es-mx/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/fr/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/id-id/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/it/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ko/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pl/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pt-br/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ru/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/th/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/tr/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/vi/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh-hant/map</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/map" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/map" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/map" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/map" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/map" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/map" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/map" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/map" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/map" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/map" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/map" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/map" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/map" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/map" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/map" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/map" />
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
 		<loc>https://palworldsaveeditor.org/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/de/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es-mx/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/fr/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/id-id/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/it/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ko/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pl/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pt-br/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ru/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/th/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/tr/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/vi/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh-hant/wiki</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/wiki" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/wiki" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/wiki" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/wiki" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/wiki" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/wiki" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/wiki" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/wiki" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/wiki" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/wiki" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/wiki" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/wiki" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/wiki" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/wiki" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/wiki" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/wiki" />
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://palworldsaveeditor.org/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/de/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/es-mx/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/fr/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/id-id/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/it/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ko/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pl/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/pt-br/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/ru/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/th/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/tr/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/vi/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://palworldsaveeditor.org/zh-hant/breeding</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://palworldsaveeditor.org/breeding" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://palworldsaveeditor.org/es/breeding" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://palworldsaveeditor.org/de/breeding" />
+		<xhtml:link rel="alternate" hreflang="es-MX" href="https://palworldsaveeditor.org/es-mx/breeding" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://palworldsaveeditor.org/fr/breeding" />
+		<xhtml:link rel="alternate" hreflang="id-ID" href="https://palworldsaveeditor.org/id-id/breeding" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://palworldsaveeditor.org/it/breeding" />
+		<xhtml:link rel="alternate" hreflang="ko" href="https://palworldsaveeditor.org/ko/breeding" />
+		<xhtml:link rel="alternate" hreflang="pl" href="https://palworldsaveeditor.org/pl/breeding" />
+		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://palworldsaveeditor.org/pt-br/breeding" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://palworldsaveeditor.org/ru/breeding" />
+		<xhtml:link rel="alternate" hreflang="th" href="https://palworldsaveeditor.org/th/breeding" />
+		<xhtml:link rel="alternate" hreflang="tr" href="https://palworldsaveeditor.org/tr/breeding" />
+		<xhtml:link rel="alternate" hreflang="vi" href="https://palworldsaveeditor.org/vi/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hans" href="https://palworldsaveeditor.org/zh/breeding" />
+		<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://palworldsaveeditor.org/zh-hant/breeding" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://palworldsaveeditor.org/breeding" />
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>

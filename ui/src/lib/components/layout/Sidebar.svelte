@@ -20,6 +20,8 @@
 		type NavItem,
 		type NavGroup
 	} from './navItems';
+	import { deLocalizeHref, localizeHref } from '$i18n/runtime';
+	import { isLocalizedPublicRoute } from '$lib/i18n/routingConfig.js';
 
 	let appState = getAppState();
 	let modal = getModalState();
@@ -87,7 +89,13 @@
 		if (result) {
 			send(MessageType.UPDATE_SETTINGS, { ...appState.settings });
 			setTimeout(() => {
-				location.reload();
+				const currentHref = `${page.url.pathname}${page.url.search}${page.url.hash}`;
+				const baseHref = deLocalizeHref(currentHref);
+				if (isLocalizedPublicRoute(baseHref.split(/[?#]/, 1)[0])) {
+					location.href = localizeHref(baseHref, { locale: appState.settings.language });
+				} else {
+					location.reload();
+				}
 			}, 500);
 		}
 	}
@@ -168,10 +176,10 @@
 	</nav>
 
 	<div class="border-surface-700/30 border-t py-2">
-			{#each actionItems as item (item.id)}
-				<div class="flex justify-center">
-					{@render actionButton(item)}
-				</div>
-			{/each}
-		</div>
+		{#each actionItems as item (item.id)}
+			<div class="flex justify-center">
+				{@render actionButton(item)}
+			</div>
+		{/each}
+	</div>
 </aside>

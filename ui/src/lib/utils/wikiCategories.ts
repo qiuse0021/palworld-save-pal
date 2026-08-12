@@ -1,4 +1,5 @@
 import * as m from '$i18n/messages';
+import { localizeHref } from '$i18n/runtime';
 import { c } from './commonTranslations';
 import { stripKeyPrefix, toSlug } from './wikiSlug';
 
@@ -34,9 +35,9 @@ export function categoryLabel(category: WikiCategory): string {
 }
 
 export function categoryHref(category: WikiCategory): string {
-	return `/wiki/${category}`;
+	return localizeHref(`/wiki/${category}`);
 }
 
 export function entityLink(category: WikiCategory, key: string): { href: string } {
-	return { href: `/wiki/${category}/${toSlug(stripKeyPrefix(key))}` };
+	return { href: localizeHref(`/wiki/${category}/${toSlug(stripKeyPrefix(key))}`) };
 }

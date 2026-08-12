@@ -3,12 +3,13 @@
 	import LocaleChip from './LocaleChip.svelte';
 	import ThemeChip from './ThemeChip.svelte';
 	import { publicNavItems, activePublicNavId } from './publicNavItems';
+	import { deLocalizeHref, localizeHref } from '$i18n/runtime';
 
-	const activeId = $derived(activePublicNavId(page.url.pathname));
+	const activeId = $derived(activePublicNavId(deLocalizeHref(page.url.pathname)));
 </script>
 
 <nav class="public-nav">
-	<a href="/" class="public-nav-brand" aria-label="Palworld Save Pal home">
+	<a href={localizeHref('/')} class="public-nav-brand" aria-label="Palworld Save Pal home">
 		<img src="/psp.png" alt="" class="h-5 w-5 rounded object-contain" />
 		<span class="heading-gradient hidden text-xs font-extrabold tracking-tight sm:inline">
 			PALWORLD SAVE PAL
@@ -19,7 +20,7 @@
 		{#each publicNavItems as item (item.id)}
 			{@const Icon = item.icon}
 			<a
-				href={item.href}
+				href={localizeHref(item.href)}
 				class="public-nav-link"
 				class:is-active={activeId === item.id}
 				aria-current={activeId === item.id ? 'page' : undefined}

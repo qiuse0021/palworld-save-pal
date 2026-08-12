@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getAppState, getToastState } from '$states';
 	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
 	import { PUBLIC_DESKTOP_MODE } from '$env/static/public';
 	import { isWebBuild } from '$lib/utils/platform';
 	import {
@@ -18,6 +19,7 @@
 	import { MessageType } from '$types';
 	import { startSaveLoad } from '$lib/data/loadSave';
 	import * as m from '$i18n/messages';
+	import { LocalizedSeo } from '$lib/components/seo';
 
 	const appState = getAppState();
 	const toast = getToastState();
@@ -25,14 +27,16 @@
 
 	let resumeName = $state<string | null>(null);
 
-	if (desktop) {
-		if (!appState.saveFile) goto('/file');
-	} else if (appState.saveFile) {
-		goto('/edit');
-	} else if (isWebBuild) {
-		hasRecent().then((r) => (resumeName = r?.worldName ?? null));
-	} else {
-		goto('/upload');
+	if (browser) {
+		if (desktop) {
+			if (!appState.saveFile) goto('/file');
+		} else if (appState.saveFile) {
+			goto('/edit');
+		} else if (isWebBuild) {
+			hasRecent().then((r) => (resumeName = r?.worldName ?? null));
+		} else {
+			goto('/upload');
+		}
 	}
 
 	async function resume() {
@@ -53,21 +57,28 @@
 	}
 </script>
 
-<svelte:head>
-	<title>{m.landing_meta_title()}</title>
-	<meta data-localized-seo name="description" content={m.landing_meta_description()} />
-	<meta data-localized-seo name="robots" content="index,follow,max-image-preview:large" />
-	<link data-localized-seo rel="canonical" href="https://palworldsaveeditor.org/" />
-	<meta data-localized-seo property="og:title" content={m.landing_og_title()} />
-	<meta data-localized-seo property="og:description" content={m.landing_og_description()} />
-	<meta data-localized-seo property="og:type" content="website" />
-	<meta data-localized-seo property="og:url" content="https://palworldsaveeditor.org/" />
-	<meta data-localized-seo name="twitter:card" content="summary_large_image" />
-	<meta data-localized-seo name="twitter:title" content={m.landing_og_title()} />
-	<meta data-localized-seo name="twitter:description" content={m.landing_og_description()} />
-</svelte:head>
+<LocalizedSeo
+	pathname="/"
+	title={m.landing_meta_title()}
+	description={m.landing_meta_description()}
+	ogTitle={m.landing_og_title()}
+	ogDescription={m.landing_og_description()}
+	structuredData={{
+		'@context': 'https://schema.org',
+		'@type': 'WebApplication',
+		name: 'Palworld Save Editor',
+		applicationCategory: 'GameApplication',
+		browserRequirements: 'Requires a modern desktop browser with WebAssembly and Web Workers.',
+		isAccessibleForFree: true,
+		offers: {
+			'@type': 'Offer',
+			price: '0',
+			priceCurrency: 'USD'
+		}
+	}}
+/>
 
-{#if isWebBuild && !appState.saveFile}
+{#if (isWebBuild || !browser) && !appState.saveFile}
 	<main class="landing-page animate-fade-in flex w-full flex-col items-center">
 		<Hero onLoad={startSaveLoad} onResume={resume} {resumeName} />
 		<MapAdvantage />

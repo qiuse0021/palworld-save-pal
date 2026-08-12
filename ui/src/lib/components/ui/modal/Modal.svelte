@@ -59,7 +59,9 @@
 
 	// Clean up the event listener when the component is destroyed
 	onDestroy(() => {
-		window.removeEventListener('keydown', handleKeydown);
+		if (typeof window !== 'undefined') {
+			window.removeEventListener('keydown', handleKeydown);
+		}
 	});
 </script>
 

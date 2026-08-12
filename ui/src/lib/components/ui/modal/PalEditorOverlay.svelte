@@ -27,7 +27,11 @@
 	}
 
 	onMount(() => window.addEventListener('keydown', handleKeydown));
-	onDestroy(() => window.removeEventListener('keydown', handleKeydown));
+	onDestroy(() => {
+		if (typeof window !== 'undefined') {
+			window.removeEventListener('keydown', handleKeydown);
+		}
+	});
 </script>
 
 {#if palEditor.isOpen}
@@ -52,7 +56,11 @@
 			</Button>
 			{#if palEditor.loading}
 				<div class="flex h-full items-center justify-center">
-					<Loading label={m.loading_entity({ entity: c.pal })} loadingComplete={false} icon={PawPrint} />
+					<Loading
+						label={m.loading_entity({ entity: c.pal })}
+						loadingComplete={false}
+						icon={PawPrint}
+					/>
 				</div>
 			{:else if appState.selectedPal}
 				<PalEditModal />
