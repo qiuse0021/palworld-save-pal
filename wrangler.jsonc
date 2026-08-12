@@ -1,6 +1,12 @@
 {
-	"name": "psp",
+	"name": "palworld-save-editor",
 	"compatibility_date": "2026-08-02",
+	"routes": [
+		{
+			"pattern": "palworldsaveeditor.org",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"directory": "./ui_build",
 		"not_found_handling": "single-page-application"

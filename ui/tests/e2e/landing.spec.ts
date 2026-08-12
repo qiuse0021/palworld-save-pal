@@ -1,6 +1,6 @@
-import { test, expect } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
-test('web landing shows the Adventure Atlas redesign', async ({ page }) => {
+test('web landing shows the Palworld Save Editor SEO copy', async ({ page }) => {
 	await page.goto('/');
 
 	// Theme logo
@@ -10,8 +10,27 @@ test('web landing shows the Adventure Atlas redesign', async ({ page }) => {
 
 	// Tagline
 	await expect(
-		page.getByText(/the free, open-source palworld save editor\. in your browser\./i)
+		page.getByRole('heading', {
+			level: 1,
+			name: /palworld save editor - free, private and online/i
+		})
 	).toBeVisible();
+	await expect(page.locator('h1')).toHaveCount(1);
+
+	// Rendered landing-copy targets: exact keyphrase occurrences / English word count.
+	const copyAudit = await page.locator('.landing-page').evaluate((root) => {
+		const text = root.textContent?.replace(/\s+/g, ' ').trim() ?? '';
+		const words = text.match(/[A-Za-z0-9]+(?:[.'-][A-Za-z0-9]+)*/g) ?? [];
+		const exactKeyphraseHits = text.match(/Palworld Save Editor/gi)?.length ?? 0;
+		return {
+			wordCount: words.length,
+			density: (exactKeyphraseHits / words.length) * 100
+		};
+	});
+	expect(copyAudit.wordCount).toBeGreaterThanOrEqual(1000);
+	expect(copyAudit.wordCount).toBeLessThanOrEqual(1200);
+	expect(copyAudit.density).toBeGreaterThanOrEqual(2.5);
+	expect(copyAudit.density).toBeLessThanOrEqual(3);
 
 	// Unified dropzone with both browse buttons
 	await expect(page.getByText(/drop your save here/i)).toBeVisible();
@@ -19,20 +38,31 @@ test('web landing shows the Adventure Atlas redesign', async ({ page }) => {
 	await expect(page.getByRole('button', { name: 'Choose folder', exact: true })).toBeVisible();
 
 	// 3D map claim
-	await expect(
-		page.getByText(/first palworld save editor with a full 3d world map/i)
-	).toBeVisible();
+	await expect(page.getByText(/explore your world with a 3d palworld save editor/i)).toBeVisible();
 
 	// Section headings
-	await expect(page.getByText(/built different, on purpose/i)).toBeVisible();
-	await expect(page.getByText(/everything you can edit/i)).toBeVisible();
-	await expect(page.getByText(/three steps/i)).toBeVisible();
-	await expect(page.getByText(/prefer the desktop app\? it is here to stay/i)).toBeVisible();
+	await expect(page.getByText(/a private, open-source palworld save editor/i)).toBeVisible();
+	await expect(page.getByText(/what you can change with the palworld save editor/i)).toBeVisible();
+	await expect(page.getByText(/how to use the palworld save editor/i)).toBeVisible();
+	await expect(
+		page.getByText(/palworld save editor for desktop and dedicated servers/i)
+	).toBeVisible();
 
 	// FAQ accordion: an item expands on click
-	const faqSummary = page.getByText(/do my files get uploaded anywhere\?/i);
+	const faqSummary = page.getByText(/does the palworld save editor upload my save files\?/i);
 	await faqSummary.click();
-	await expect(page.getByText(/everything runs in your browser/i)).toBeVisible();
+	await expect(page.getByText(/runs save parsing and editing on your device/i)).toBeVisible();
+
+	// Root-domain SEO metadata
+	await expect(page).toHaveTitle('Palworld Save Editor Online - Free, Private & Open Source');
+	await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+		'href',
+		'https://palworldsaveeditor.org/'
+	);
+	await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
+		'content',
+		'index,follow,max-image-preview:large'
+	);
 
 	// Desktop links
 	await expect(page.getByRole('link', { name: /github/i }).first()).toHaveAttribute(

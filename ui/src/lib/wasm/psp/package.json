@@ -1,7 +1,16 @@
 {
-	"name": "psp",
-	"type": "module",
-	"main": "psp.js",
-	"module": "psp.js",
-	"types": "psp.d.ts"
+  "name": "psp-web",
+  "type": "module",
+  "version": "1.3.2",
+  "license": "GPL-3.0-only",
+  "files": [
+    "psp_web_bg.wasm",
+    "psp_web.js",
+    "psp_web.d.ts"
+  ],
+  "main": "psp_web.js",
+  "types": "psp_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }

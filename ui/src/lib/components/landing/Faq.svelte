@@ -12,6 +12,14 @@
 			a: m.landing_faq_a_upload
 		},
 		{
+			q: m.landing_faq_q_files,
+			a: m.landing_faq_a_files
+		},
+		{
+			q: m.landing_faq_q_platforms,
+			a: m.landing_faq_a_platforms
+		},
+		{
 			q: m.landing_faq_q_free,
 			a: m.landing_faq_a_free
 		},

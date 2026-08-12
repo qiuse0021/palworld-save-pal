@@ -56,9 +56,15 @@
 <svelte:head>
 	<title>{m.landing_meta_title()}</title>
 	<meta name="description" content={m.landing_meta_description()} />
+	<meta name="robots" content="index,follow,max-image-preview:large" />
+	<link rel="canonical" href="https://palworldsaveeditor.org/" />
 	<meta property="og:title" content={m.landing_og_title()} />
 	<meta property="og:description" content={m.landing_og_description()} />
 	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://palworldsaveeditor.org/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={m.landing_og_title()} />
+	<meta name="twitter:description" content={m.landing_og_description()} />
 </svelte:head>
 
 {#if isWebBuild && !appState.saveFile}
